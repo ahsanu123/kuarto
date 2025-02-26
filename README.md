@@ -1,6 +1,6 @@
 # 🌊 Kuarto 
 
-![image](https://github.com/user-attachments/assets/96c95ad7-5051-48aa-bfe0-82fe679b6c1a)
+![image](https://github.com/user-attachments/assets/848fe847-b2c7-4bb5-b479-731e07300c06)
 
 ## 🍥 Reference
 
