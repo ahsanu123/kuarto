@@ -1,4 +1,6 @@
-using CairoMakie;
+using GLMakie;
+
+GLMakie.activate!()
 
 seconds = 0:0.1:2;
 measurements = [8.2, 8.4, 6.3, 9.5, 9.1, 10.5, 8.6, 8.2, 10.5, 8.5, 7.2,

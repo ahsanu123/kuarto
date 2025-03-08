@@ -1,5 +1,14 @@
 # Introduction 
 
+## Developing in Julia 
+
+developing in Julia feel weird at first time, 
+
+- start Julia repl, then use `Revise`
+- use include to load module or function inside Julia file, 
+- `using SomeModule` to load included Module 
+- at first running Julia will slow (like when doing plotting, etc), but after first time run, its faster
+
 ## Notes 
 
 - : => create symbol (:foo, Symbol("foo"))
