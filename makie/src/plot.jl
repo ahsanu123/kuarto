@@ -17,4 +17,3 @@ save("plot.png", fig)
 
 display(fig)
 
-
