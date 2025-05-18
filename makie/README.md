@@ -8,6 +8,11 @@ developing in Julia feel weird at first time,
 - use include to load module or function inside Julia file, 
 - `using SomeModule` to load included Module 
 - at first running Julia will slow (like when doing plotting, etc), but after first time run, its faster
+## time to first plot (TTFP)
+
+In Makie, when first time do plotting (after restart, or after terminate julia), julia will compile first the makie, and its not fast (about 20 second).
+there is package for resolve slow first time start, its call `packagecompiler.jl` basically it will compile all dependencies, of choosen package, 
+read more about how to create sysimage in this doc https://julialang.github.io/PackageCompiler.jl/stable/examples/plots.html 
 
 ## Notes 
 
