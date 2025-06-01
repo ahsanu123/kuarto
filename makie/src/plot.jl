@@ -13,7 +13,7 @@ ax = Axis(fig[1, 1])
 scatter!(ax, seconds, measurements)
 lines!(ax, seconds, exp.(seconds) .+ 7)
 
-save("plot.png", fig)
+# save("plot.png", fig)
 
 display(fig)
 
